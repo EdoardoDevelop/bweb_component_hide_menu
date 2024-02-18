@@ -1,0 +1,51 @@
+#setting_hide_menu{
+    overflow: auto;
+}
+#setting_hide_menu .form-table{
+    width: 100%;
+    overflow: auto;
+}
+#setting_hide_menu .form-table th{
+    display: none;
+}
+#table_menu{
+    display: table;
+    background-color: #fff;
+    table-layout: fixed;
+    width: 100%;
+    overflow: auto;
+    min-width: 600px;
+}
+.table_menu_column{
+    display: table-cell;
+    border: 1px solid #ccc;
+}
+
+#table_menu .table_menu_column:first-child{
+    width: 200px;
+}
+
+.row_menu{
+    background-color: #eeeeee;
+    padding-left: 10px;
+    height: 35px;
+    line-height: 35px;
+}
+.row_smenu{
+    padding-left: 10px;
+    height: 35px;
+    line-height: 35px;
+}
+
+.row_smenu:nth-child(even){
+    background-color: #f4f4f4;
+}
+.chk .row_smenu{
+    height: 35px;
+    line-height: 35px;
+}
+
+#table_menu h4{
+    margin: 0;
+    padding: 10px;
+}
